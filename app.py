@@ -8,7 +8,7 @@ st.set_page_config(page_title="Gapminder World Explorer", page_icon="🌍", layo
 @st.cache_data
 def load_data():
     """Load the CSV once and cache it for fast interactions."""
-    csv_path = Path(__file__).parent / "exp10_gapminder.csv"
+    csv_path = Path(__file__).parent / "gapminder.csv"
     if not csv_path.exists():
         raise FileNotFoundError(
             "gapminder.csv was not found. Keep the CSV in the same folder as app.py."
