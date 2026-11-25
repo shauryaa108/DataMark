@@ -11,7 +11,7 @@ def load_data():
     csv_path = Path(__file__).parent / "exp10_gapminder.csv"
     if not csv_path.exists():
         raise FileNotFoundError(
-            "exp10_gapminder.csv was not found. Keep the CSV in the same folder as app.py."
+            "gapminder.csv was not found. Keep the CSV in the same folder as app.py."
         )
     data = pd.read_csv(csv_path)
     required = {"country", "continent", "year", "lifeExp", "pop", "gdpPercap"}
