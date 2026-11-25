@@ -13,9 +13,9 @@ The dataset contains information about 142 countries across 5 continents from 19
 
 ## Live Demo
 
-🌐 **[Try the Application](https://datascienceapp-n8zn82cwzh4kxbaqpwcj7q.streamlit.app/)**
+🌐 **[Try the Application](https://datamark.streamlit.app/)**
 
-💻 **[GitHub Repository](https://github.com/shauryaa108/DataScienceApp)**
+💻 **[GitHub Repository](https://github.com/shauryaa108/DataMark)**
 
 ## Features
 
